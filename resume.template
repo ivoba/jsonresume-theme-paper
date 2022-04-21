@@ -128,8 +128,6 @@
           </section>
           {{/if}}
 
-
-
           {{#if resume.work.length}}
             {{#foreach resume.work}}
               {{#if $first}}
@@ -222,8 +220,8 @@
                           {{name}}
                           </strong>
                         {{/if}}
-                        {{#if website}}
-                          <strong><a href="{{website}}"> - {{website}}</a></strong>
+                        {{#if url}}
+                          <strong><a href="{{url}}"> - {{url}}</a></strong>
                         {{/if}}
                         </p>
 
