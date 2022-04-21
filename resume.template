@@ -86,6 +86,12 @@
                         <li>{{region}}</li>
                       </ul>
                     {{/if}}
+                    {{#if country}}
+                      <ul>
+                        <li>Country</li>
+                        <li>{{country}}</li>
+                      </ul>
+                    {{/if}}
                   </div>
                 </div>
               </section>
